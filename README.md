@@ -3,19 +3,18 @@ A focused practice repo to rebuild from-scratch JavaScript + React interview ski
 
 ## Structure
 week-01/
-js-drills/
-myMap.js
-react-microbuilds/
-ColorList.tsx
+  js-drills/
+    myMap.js
+  react-microbuilds/
+    ColorList.tsx
 playgrounds/
-react-vite/ # run React TSX snippets quickly
-
+  react-vite/ # run React TSX snippets quickly
 
 ## Daily Study Log
 
-| Date | Session | What I practiced | Time | 1-line insight |
-|------|---------|------------------|------|----------------|
-| YYYY-MM-DD | JS Drill | `myMap` | 25m | e.g., “Skipped holes via `i in arr`.” |
+| Date       | Session  | What I practiced | Time | 1-line insight |
+|------------|----------|------------------|------|----------------|
+| 2025-09-16 | JS Drill | `myMap`          | 25m  | Learned that `map` builds a new array, skips holes with `i in arr`, and always runs the callback with `(element, index, array)`. Also practiced explaining `map` vs `forEach` and the “forgot return” trap. |
 
 ### How to Use
 - **Weeks**: Put exercises under `week-0X`.
@@ -23,9 +22,11 @@ react-vite/ # run React TSX snippets quickly
 - **React micro-builds**: Single-file TSX components; keep state minimal.
 - **Playground**: Use `playgrounds/react-vite` to run/preview React components quickly.
 
-## Tonight’s Warm-up (suggested)
-- Implement `myMap(arr, fn)` (skip holes).
-- Build `ColorList` (buttons from colors, show selected, clear).
+## Tonight’s Warm-up (completed)
+- ✅ Implemented `myMap(arr, fn)` (skips holes correctly).
+- ✅ Reviewed callbacks: `(element, index, array)`.
+- ✅ Explained difference between `map` and `forEach`.
+- ✅ Covered the “forgot return” trap in `map`.
 
 ## Commands
 
